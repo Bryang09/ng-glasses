@@ -1,0 +1,7 @@
+<section class="Section3">
+  <h2>Here's What our Awesome Customers are Wearing</h2>
+  <div class="boxes">
+    <div class="box" *ngFor="let pic of gallery" [ngStyle]="{'background-image': 'url('+pic.src+')'}">
+    </div>
+  </div>
+</section>

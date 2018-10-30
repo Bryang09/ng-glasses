@@ -1,0 +1,26 @@
+.Footer {
+  background: #eeefee;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+
+  h5 {
+    width: 40%;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+  }
+
+  .logos {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      margin: 0 0.5vw;
+      cursor: pointer;
+    }
+  }
+}
